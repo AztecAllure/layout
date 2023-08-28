@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+
+body{
+    background-color: #8892b0;
+    margin: 0;
+}
+
+.container{    
+    width: 100%;
+    height:100vh;
+    position: relative;
+    /* display: flex; */
+}
+
+.header-image img{
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.head-container{
+    display: flex;
+    width: 100%;
+    background-color: #0a192f;
+    color: #8892b0;
+}
+
+.links{
+    display: flex;
+    margin-top: 15px;
+}
+
+header a{
+    margin-left: 70px;
+}
+
+header a{
+    text-decoration: none;
+    margin: 10px;
+    color: #8892b0;
+    font-size: 1.5em;
+    margin-left: 70px;
+}
+
+.home{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+a:hover{
+    color: #64ffda;
+}
+
+.maincontent{
+    height: 60%;
+}
+
+.footer-content{
+    width: 100%;
+    height: 150px;
+    background-color: #0a192f;
+    color: #8892b0;
+    text-align: center;
+}
+
+.footer-content h3{
+    text-align: center;
+    font-size: 1.7em;
+    padding-top: 10px;
+}
+.footer-content h4,h5{
+    text-align:center;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    margin: 6px;
+    margin-top: 15px;
+    color: #8892b0;
+}
+
+.linkin{
+    margin-left: 10px;
+}
+
+.maincontent img{
+    width: 250px;
+    height: 200px;
+    background-color: #0a192f;
+}
+
+.link{
+    border: 10px solid #0a192f;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #0a192f;
+}
+
+.row{
+    display: flex;
+}
+
+.text{
+    border: 5px solid #0a192f;
+    text-align: center;
+    background-color: #0a192f;
+    font-size: 24px;
+}
+
+.column{
+    margin: 30px 30px 50px 50px;
+    margin-left: 150px;
+}
+
+.section h3{
+    color: #0a192f;
+    text-align: center;
+    font-size: 1.9em;
+}
+
+.section{
+    margin-top: 50px;
+}
+
+hr{
+    border-color: #0a192f;
+    width: 85%;
+    margin: 0 auto; 
+}
+
+.link>a:hover{
+    background-color: #64ffda;
+    border-radius: 100px;
+}
+
+
+
+.top{
+    padding: 10px;
+    color: #8892b0;
+    background-color: #0a192f;
+    border-radius: 15px;
+    /* display: flex; */
+    width: 130px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: end;
+}
